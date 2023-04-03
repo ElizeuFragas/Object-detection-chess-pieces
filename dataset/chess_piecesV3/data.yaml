@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: content/yolov7/Object-detection-chess-pieces/dataset/chess_piecesV3/train/images
+val: content/yolov7/Object-detection-chess-pieces/dataset/chess_piecesV3/valid/images
+test: content/yolov7/Object-detection-chess-pieces/dataset/chess_piecesV3/test/images
 
 nc: 13
 names: ['bishop', 'black-bishop', 'black-king', 'black-knight', 'black-pawn', 'black-queen', 'black-rook', 'white-bishop', 'white-king', 'white-knight', 'white-pawn', 'white-queen', 'white-rook']
