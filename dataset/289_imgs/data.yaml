@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /content/Object-detection-chess-pieces/dataset/289_imgs/train/images
+val: /content/Object-detection-chess-pieces/dataset/289_imgs/valid/images
+test: /content/Object-detection-chess-pieces/dataset/289_imgs/test/images
 
 nc: 13
 names: ['bishop', 'black-bishop', 'black-king', 'black-knight', 'black-pawn', 'black-queen', 'black-rook', 'white-bishop', 'white-king', 'white-knight', 'white-pawn', 'white-queen', 'white-rook']
